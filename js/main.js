@@ -471,6 +471,15 @@ function _getSkyData() {
   }));
   return _getSkyData.apply(this, arguments);
 }
+function showWarning(message) {
+  sweetalert2__WEBPACK_IMPORTED_MODULE_10___default.a.fire({
+    text: message,
+    title: "Game Compatibility",
+    icon: "warning"
+  });
+}
+
+showWarning("Please note that the game is only playable if you have test eth on the Matic Network or Binance Smartchain Network see about option in Game menu for more information");
 
 /***/ }),
 
