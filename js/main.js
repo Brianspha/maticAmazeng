@@ -217,7 +217,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /*=========================================== variables start=========================================== */
 
-var appSecret = "askdjlaksdj klajdasdasdk12312dasdasdad1212ads la sjdl111kasj1dk11lasdjda1ja   asdh1012293 jkasldkja oduaj idjaslkdja lskdjlak sdj";
+var appSecret = "askdjlaksdj klajaAAAAaadasdasdk12312dasdasdad1212ads la sjdl111kasj1dk11lasdjda1ja   asdh1012293 jkasldkja oduaj idjaslkdja lskdjlak sdj";
 
 var _genKeyPairFromSeed = Object(skynet_js__WEBPACK_IMPORTED_MODULE_9__["genKeyPairFromSeed"])(appSecret),
     publicKey = _genKeyPairFromSeed.publicKey,
@@ -351,36 +351,37 @@ function init() {
 
 function _init() {
   _init = Object(_babel_runtime_corejs3_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_6__["default"])( /*#__PURE__*/_babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_4___default.a.mark(function _callee2() {
-    var test, data, _context2;
+    var playerLimit, test, data, _context2, count;
 
     return _babel_runtime_corejs3_regenerator__WEBPACK_IMPORTED_MODULE_4___default.a.wrap(function _callee2$(_context6) {
       while (1) {
         switch (_context6.prev = _context6.next) {
           case 0:
+            playerLimit = 5;
             showLoading();
-            _context6.next = 3;
+            _context6.next = 4;
             return getSkyData();
 
-          case 3:
+          case 4:
             test = _context6.sent;
             data = {
               players: []
             };
 
             if (test) {
-              _context6.next = 9;
+              _context6.next = 10;
               break;
             }
 
             warning("No users have played the game");
-            _context6.next = 17;
+            _context6.next = 19;
             break;
 
-          case 9:
-            _context6.next = 11;
+          case 10:
+            _context6.next = 12;
             return getSkyData();
 
-          case 11:
+          case 12:
             data = _context6.sent;
             data = _babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_3___default()(_context2 = data.data.players).call(_context2, function (player) {
               var _context3, _context4;
@@ -403,17 +404,21 @@ function _init() {
 
             revision = data.revision;
             $("#list").empty();
+            count = 0;
 
             _babel_runtime_corejs3_core_js_stable_instance_map__WEBPACK_IMPORTED_MODULE_3___default()(data).call(data, function (player) {
-              var _context5;
+              if (count < playerLimit) {
+                var _context5;
 
-              $("#list").append(_babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_0___default()(_context5 = " <li><span class=\"name\">".concat(player.userID, "</span><span class=\"percent\">")).call(_context5, player.tokensCollected, "</span></li>"));
+                $("#list").append(_babel_runtime_corejs3_core_js_stable_instance_concat__WEBPACK_IMPORTED_MODULE_0___default()(_context5 = " <li><span class=\"name\">".concat(player.userID, "</span><span class=\"percent\">")).call(_context5, player.tokensCollected, "</span></li>"));
+                count++;
+              }
             });
 
-          case 17:
+          case 19:
             hideLoading();
 
-          case 18:
+          case 20:
           case "end":
             return _context6.stop();
         }
@@ -471,6 +476,7 @@ function _getSkyData() {
   }));
   return _getSkyData.apply(this, arguments);
 }
+
 function showWarning(message) {
   sweetalert2__WEBPACK_IMPORTED_MODULE_10___default.a.fire({
     text: message,
@@ -479,7 +485,7 @@ function showWarning(message) {
   });
 }
 
-showWarning("Please note that the game is only playable if you have test eth on the Matic Network or Binance Smartchain Network see about option in Game menu for more information");
+showWarning("Please note that the game is only playable if you have test eth only on the Binance Smartchain Network see **About** option in Game menu for more information");
 
 /***/ }),
 

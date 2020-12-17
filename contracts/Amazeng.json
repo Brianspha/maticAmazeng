@@ -61,7 +61,7 @@
       "signature": "0x228e8c246912b47fdd3ab77bdd5911c5398935328b3138fa60bb1e88546bb22f"
     }
   ],
-  "deployedAddress": "0xC78B4d54C2F1AB9320aC297e1f1D31f249818D55",
+  "deployedAddress": "0x3e521cC04E801C93E1c0a6F5EBd37E5704DF16E0",
   "className": "Amazeng",
   "args": [],
   "gas": "6000000",
@@ -99,5 +99,5 @@
   "path": "/Users/powerbite/Documents/myrepos/amazeng/contracts/Amazeng.sol",
   "type": "file",
   "deploymentAccount": "0xbd6581FBDc3d3f42B44A1f1416ee5c2a5B7b85f6",
-  "transactionHash": "0x89c30136cd30c640ed1294368089230c55081d5bab2064ac4fbbfc208a4b9ec1"
+  "transactionHash": "0x07ddfaff6776163343491363eb6ec4a7f643068cfa828e8b68f37e02fecfb8ad"
 }

@@ -300,7 +300,7 @@
       "signature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925"
     }
   ],
-  "deployedAddress": "0xc956443d9B35841Ce2AE8Cbf2de89997ce46b9Cc",
+  "deployedAddress": "0xf3813BBB961617F1062F8f840f908156092d7e32",
   "className": "ERC20",
   "args": [
     "AmazengToken",
@@ -364,5 +364,5 @@
   "path": "/Users/powerbite/Documents/myrepos/amazeng/contracts/ERC20.sol",
   "type": "file",
   "deploymentAccount": "0xbd6581FBDc3d3f42B44A1f1416ee5c2a5B7b85f6",
-  "transactionHash": "0xaa5b5abc4234d74e9ddf32653a61e748fb92161a69a645cfe1a7bf25c814dc0a"
+  "transactionHash": "0xf88bcfc13f5dd498daf66018c555d7d83e1e3ffced95ac38065b74427497d682"
 }

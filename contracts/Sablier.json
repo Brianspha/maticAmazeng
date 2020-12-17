@@ -837,10 +837,10 @@
       "signature": "0xca3e6079b726e7728802a0537949e2d1c7762304fa641fb06eb56daf2ba8c6b9"
     }
   ],
-  "deployedAddress": "0x014448D55782Ce5D53DfFFBEE4f081aa806e1DFb",
+  "deployedAddress": "0x4ee8e25ae16F92Ca52Fc83588722864C472cde95",
   "className": "Sablier",
   "args": [
-    "0x9E7818aE2b928e5697A000FC71745c703b177a40"
+    "0xfF530F6551147b9d257D4E389Cd40217af9f32F4"
   ],
   "gas": "6000000",
   "gasPrice": "1000000000",
@@ -930,5 +930,5 @@
   "path": "/Users/powerbite/Documents/myrepos/amazeng/contracts/Sablier.sol",
   "type": "file",
   "deploymentAccount": "0xbd6581FBDc3d3f42B44A1f1416ee5c2a5B7b85f6",
-  "transactionHash": "0xbe0d3ce59af09ef0f7273bb422fc4bc08f3ccf752e76d9904ac23b3c20e63f47"
+  "transactionHash": "0xc7c091114b2ff3bea20be0745ddd7bc0c03b9d2325cb095b7500280af9ecc6e0"
 }

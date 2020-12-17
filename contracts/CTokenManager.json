@@ -163,7 +163,7 @@
       "signature": "0x6b059312af62bbe5ac6a9a59761eaf444083ad356cdbf3761bc98857e061ecb5"
     }
   ],
-  "deployedAddress": "0x9E7818aE2b928e5697A000FC71745c703b177a40",
+  "deployedAddress": "0xfF530F6551147b9d257D4E389Cd40217af9f32F4",
   "className": "CTokenManager",
   "args": [],
   "gas": "6000000",
@@ -207,5 +207,5 @@
   "path": "/Users/powerbite/Documents/myrepos/amazeng/contracts/CTokenManager.sol",
   "type": "file",
   "deploymentAccount": "0xbd6581FBDc3d3f42B44A1f1416ee5c2a5B7b85f6",
-  "transactionHash": "0x9678beef6288f556ed982c6d6bd456d13e474ba2e51f70c2096865226cbc081f"
+  "transactionHash": "0x58cb6183fd2de1c176bfa6455efd955038e8ca410a33aaedd038cea1d3e84885"
 }
