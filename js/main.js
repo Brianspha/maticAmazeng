@@ -485,7 +485,7 @@ function showWarning(message) {
   });
 }
 
-showWarning("Please note that the game is only playable if you have test eth only on the Binance Smartchain Network see **About** option in Game menu for more information");
+showWarning("Please note that the game is only playable if you have test eth only on the Matic Network see **About** option in Game menu for more information");
 
 /***/ }),
 
