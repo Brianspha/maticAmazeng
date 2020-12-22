@@ -11,4 +11,3 @@
 
 ### Deployed URLS
 1. Matic Network -  https://brianspha.github.io/maticAmazeng/
-2. Matic Network - https://siasky.net/AAA_KyhzNVjl1KKfQeFKq34oGLf9Jo5EuSuIVrBBHyp2Lw
